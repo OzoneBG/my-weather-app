@@ -53,6 +53,9 @@ const SingleWeather = (props) => {
         return values;
     }
 
+    if (props.weather === undefined || props.weather[0] === undefined || props.weather[0].dt_txt === undefined) {
+        return null;
+    }
     const dt = new Date(props.weather[0].dt_txt);
     const date = `${dt.getMonth()+1}/${dt.getDate()}`;
     return (

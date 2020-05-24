@@ -175,7 +175,18 @@ router.post("/login", async (ctx, next) => {
         let foundLogin = findLogin(user.username);
         
         if(foundLogin) {
-            ctx.body = {"message": "loggedin"}
+            ctx.body = {"message": "user already logged in. Logging out. Try again."}
+            let index = -1;
+            for(let i = 0; i < logins.length; i++) {
+                if (logins[i].username === user.username) {
+                    index = i;
+                    break;
+                }
+            }
+
+            if (index > -1) {
+                logins.splice(index, 1);
+            }
             await next();
             return;
         }
