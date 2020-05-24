@@ -222,4 +222,5 @@ app.use(router.routes()).use(router.allowedMethods());
 
 app.listen(PORT, () => {
     console.log("==> 🌎  Listening on port %s. Visit http://localhost:%s/", PORT, PORT);
+    console.log(`==> The administrator username and password is ${users[0].username}:${users[0].password}`);
 });

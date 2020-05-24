@@ -41,5 +41,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 2. Move the build folder to the backend root `mv build backend/`
 3. Run the backend server using `node backend.js`
    * By default the server listens on port 3001. Can be changed using environment variable PORT set to a port of your choice.
-4. Navigate to `localhost:3001`
-
+4. Navigate to `localhost:3001` and login with the administrator password. Preferably use Firefox
