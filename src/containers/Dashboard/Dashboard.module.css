@@ -1,0 +1,23 @@
+.root {
+    padding: 10px;
+}
+
+.search {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.search > * {
+    margin: auto;
+}
+
+.currentWeather {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.currentWeather > div {
+    margin: auto;
+}

@@ -1,0 +1,12 @@
+.landingpage {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: black;
+}

@@ -1,0 +1,16 @@
+.signin {
+    background-color: #ccc;
+    margin: 10px auto;
+    width: 50%;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #eee;
+    margin-top: 5%;
+}
+
+form {
+    margin-top: 25px;
+}
+
+h2 {
+    text-align: center;
+}
