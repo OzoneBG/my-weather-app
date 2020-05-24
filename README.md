@@ -36,6 +36,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 1. Make sure that all koa server middleware and packages are installed using the following command `npm install koa koa-router koa-bodyparser koa-cors koa-static koa-mount uuid axios`
 
 ### Steps
+0. Get all packages for the react project using `npm install`
 1. Go to the react root folder and run `npm run build` to build the optmizied bundle for production.
 2. Move the build folder to the backend root `mv build backend/`
 3. Run the backend server using `node backend.js`
